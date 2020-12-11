@@ -32,10 +32,10 @@ private String[] razmestvane(String[] str,int m) {
 	this.number--;
 	return str;
 }
- int getNumber() {
+ public int getNumber() {
 	return this.number;
 }
- String[] getStudents() {
+public  String[] getStudents() {
 	return this.Students;
 }
 }
