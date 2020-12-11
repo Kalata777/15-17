@@ -8,14 +8,14 @@ public class Course {
 Course(String name){
 	this.name=name;
 }
-public String getCourseName(){
+ String getCourseName(){
 	return this.name;
 }
-public void addStudent(String str) {
+ void addStudent(String str) {
 	Students[this.number]=str;
 	this.number++;
 }
-public void dropStudent(String str) {
+ void dropStudent(String str) {
 	for(int i=0;i<this.number;i++) {
 		if(str==this.Students[i]) {
 			this.Students=razmestvane(Students,i);
@@ -32,10 +32,10 @@ private String[] razmestvane(String[] str,int m) {
 	this.number--;
 	return str;
 }
- public int getNumber() {
+  int getNumber() {
 	return this.number;
 }
-public  String[] getStudents() {
+  String[] getStudents() {
 	return this.Students;
 }
 }
