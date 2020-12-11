@@ -6,36 +6,36 @@ private int id=0;
 private double balance=0, yearInterestRate=0;	
 private Date dateCreated=new Date();
 Account(){}
-public int getid() {
+ int getid() {
 	return this.id;
 }
-public double getbalance() {
+ double getbalance() {
 	return this.balance;
 }
-public double getYIR() {
+ double getYIR() {
 	return this.yearInterestRate/100;
 }
-public void setid(int id) {
+void setid(int id) {
 	this.id=id;
 }
-public void setbalance(double b) {
+ void setbalance(double b) {
 	this.balance=b;
 }
-public void getbalance(double b) {
+ void getbalance(double b) {
 	this.balance=b;
 }
-public void getYIR(double a) {
+ void getYIR(double a) {
 	this.yearInterestRate=a;
 }
-public double getMonthlyInterestRate() {
+ double getMonthlyInterestRate() {
 	return this.yearInterestRate/12;
 	
 }
-public double getMonthlyInterest() {
+ double getMonthlyInterest() {
 	return this.balance * this.getMonthlyInterestRate();
 	
 }
-public void withdraw(double i) {
+ void withdraw(double i) {
 	if(i<=this.balance) {
 		this.balance-=i;
 	}
