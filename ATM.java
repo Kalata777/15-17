@@ -2,7 +2,7 @@ package ggg;
 
 import java.util.Scanner;
 
-public class AccountTest {
+public class ATMt {
 	static Account[] accounts= new Account[10];
 	static int id=-9;
 	static Scanner sc= new Scanner(System.in);
