@@ -17,18 +17,18 @@ Time(long ms){
 this.ms=ms;
 
 }
-public Time() {
+ Time() {
     ms =  System.currentTimeMillis();
 }
-public int getH(){
+ int getH(){
 	return this.h;
 	
 }
-public int getM(){
+ int getM(){
 	return this.m;
 	
 }
-public int getS(){
+ int getS(){
 	return this.s;
 	
 }private void setHour(int h) {
@@ -40,7 +40,7 @@ private void setMinute(int m) {
 private void setSecond(int s) {
 	this.s=s;
 }
-public void setTime(long milliseconds) {
+ void setTime(long milliseconds) {
 	milliseconds %= 86400000;
 	setHour((int) (milliseconds / 3600000));
 	milliseconds %= 3600000;
