@@ -8,21 +8,21 @@ int value;
 	int get() {
 		return this.value;
 	}
-public boolean isEven() {
+ boolean isEven() {
 	 if(this.value%2==0) {
 		 return true;
 	 }else {
 		 return false;
 	 }
  }
-public boolean isOdd() {
+ boolean isOdd() {
 	 if(this.value%2!=0) {
 		 return true;
 	 }else {
 		 return false;
 	 }
  }
-public boolean isPrime() {
+ boolean isPrime() {
 	 for(int i=0;i< (int) this.value/2;i++) {
 		 if(this.value%i==0) {
 			 return false;
