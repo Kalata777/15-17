@@ -20,7 +20,7 @@ if(this.inv.gun==true) {
 public String getName() {
 	return this.name;
 }
-public void setName(String name) {
+void setName(String name) {
 this.name=name;
 }
 }
