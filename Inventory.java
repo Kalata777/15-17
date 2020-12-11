@@ -4,7 +4,7 @@ public class Inventory {
 boolean shotgun = false, axe = false, gun = false, minigun = false, blaster = false, pulseGun = false, rocketLauncher = false, shockRifle = false;
 final static int Shotgun=1, Axe=2, Gun=3, Minigun=4, Blaster=5, Pulsegun=6, RocketLauncher=7,Shockrifle=8;
 Inventory(){}
-public void changeSomething(int i) {
+ void changeSomething(int i) {
 	switch(i) {
 	case 1:
 		this.shotgun=!this.shotgun;
